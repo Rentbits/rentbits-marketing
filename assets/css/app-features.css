@@ -659,8 +659,8 @@
         border-top: #4f91cd solid 3px;
         padding-top: 20px;
     }
-    #products-Modal > div > div:last-child{
-        border:none;
+    #products-Modal > div > div:last-child {
+        border: none;
     }
     #demo-insights-Modal form .button, #demo-resident-buddy-Modal form .button {
         margin-top: 20px;
