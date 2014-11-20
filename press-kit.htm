@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 
 
 <head>
-	<meta charset="utf-8" />
-  	<meta name="viewport" content="width=device-width" />
+  <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
   <title>rentbits homepage</title>
 
   <link rel="stylesheet" href="foundation-4.0.4/css/normalize.css" />
@@ -22,7 +22,7 @@
 
 </head>
 <body id="press">
-	<div id="page-wrapper">
+  <div id="page-wrapper">
     <nav>
       <div class="row" id="top">
         <div class="sign-in-container">
@@ -40,16 +40,6 @@
         </ul>
       </div>
       <ul class="feature-nav">
-        <li >
-          <h6 class="blue-border">Resident Services</h6>
-          <ul>
-            <li><a href="#">Home Automation</a></li>
-            <li><a href="#">Pay Rent Online</a></li>
-            <li><a href="#">Maintenance Request</a></li>
-            <li><a href="#">Announcements</a></li>
-            <li><a href="#">Resident Marketplace</a></li>
-          </ul>
-        </li>
         <li>
           <h6 class="green-border">Marketing</h6>
           <ul>
@@ -75,7 +65,7 @@
         </li>             
       </ul>
     </nav>
-		<section id="content-start" class="scroll-trigger">
+    <section id="content-start" class="scroll-trigger">
       <div class="row">
         <div class="large-3 columns left-col">
           <div class="presskit-ui">
@@ -133,11 +123,11 @@
                   </div>
                 </div>
               </section>
-						</div>
+            </div>
           </div>
         </div>
       </div>
-		</section>
+    </section>
     <footer>
       <div class="row">
         <div class="large-3 columns">
@@ -168,31 +158,40 @@
     </footer>
         
         <!-- modals -->
-        <div id="contact-Modal" class="reveal-modal xlarge">
-       		<h2>Ok, tell us a little bit about yourself.</h2>
-			    <div class="row">
-            <div class="large-7 columns large-offset-5">
-              <p><span class="large">We&rsquo;ll get back to you shortly.</span><br>To speak to someone on our operations or customer service team please call us at 303-640-3160.</p>
-              <form action="send.jsp" target="_blank">
+        <!--start contact modal-->
+<div id="contact-Modal" class="reveal-modal xlarge">
+    <h2>Get Started With a Product Demo</h2>
+    <div class="row">
+        <div class="large-7 columns large-offset-5">
+            <form id="contact" class="custom contact">
                 <label>Your Full Name</label>
-                <input type="text" name="name">
+                <input type="text" name="Name" id="Name">
                 <label>Email Address (we'll keep it private)</label>
-                <input type="text" name="email">
-                <label>Name of Community</label>
-                <input type="text" name="Community">
-                <label>State</label>
-                <input type="text" name="state">
-                <label><input type="checkbox" name="client"> I am a client.</label>
-                <input type="hidden" name="recipient" value="OPS"/>
-                <input type="hidden" name="subject" value="Operations Contact Request From Website"/>
-                <button class="button medium primary round right">Send Message</button>
-              </form>
-            </div>
-          </div>
-          <a class="close-reveal-modal">&#215;</a>
+                <input type="text" name="Email" id="Email">
+                <label>Phone Number</label>
+                <input type="text" name="phone">
+                <select id="customDropdown1">
+                    <option>Choose a Topic</option>
+                    <option>Technical Support</option>
+                    <option>Sales Inquirey</option>
+                    <option>Customer Service</option>
+                    <option>Other...</option>
+                </select>
+                <label>Message</label>
+                <textarea cols="3"></textarea>
+                <input type="hidden" name="recipient" value="SALES" />
+                <input type="hidden" name="recipient" value="TECH" />
+                <input type="hidden" name="recipient" value="OPS" />
+                <input type="hidden" name="subject" value="Operations Contact Request From Website" />
+                <input type="hidden" name="successPage" value="index.htm" />
+                <button id="contactButton" class="button medium primary round right">Submit</button>
+            </form>
         </div>
-      </div>
-	
+    </div>
+    <a class="close-reveal-modal">&#215;</a>
+</div>
+<!--end contact modal-->
+  
   <script src="foundation-4.0.4/js/vendor/jquery.js"></script>
   <script src="foundation-4.0.4/js/foundation.min.js"></script>
 

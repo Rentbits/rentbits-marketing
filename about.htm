@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<!--[if IE 8]>               <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
 
 <!--[if gte IE 9]>
   <style type="text/css">
@@ -11,340 +13,465 @@
 <![endif]-->
 
 <head>
-	<meta charset="utf-8" />
-  	<meta name="viewport" content="width=device-width" />
-  <title>rentbits homepage</title>
-
-  <link rel="stylesheet" href="foundation-4.0.4/css/normalize.css" />
-  
-  <link rel="stylesheet" href="foundation-4.0.4/css/foundation.css" />
-  <link rel="stylesheet" href="assets/css/app.css" />
-
-  <script src="foundation-4.0.4/js/vendor/custom.modernizr.js"></script>
-  <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
-
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>rentbits - Integrated online solutions for the rental industry.</title>
+    <meta name="description" content="rentbits provides online solutions, tools and rental search for the apartment and rental home industry. Our mission is to simplify the lives of renters and rental professionals.">
+    <link rel="stylesheet" href="foundation-4.0.4/css/normalize.css" />
+    <link rel="stylesheet" href="foundation-4.0.4/css/foundation.css" />
+    <script src="foundation-4.0.4/js/vendor/custom.modernizr.js"></script>
+    <script src="assets/js/respond.js"></script>
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <script src="foundation-4.0.4/js/vendor/jquery.js"></script>
+    <script src="foundation-4.0.4/js/foundation.min.js"></script>
 </head>
+
 <body id="about">
-	<div id="page-wrapper">
-    	<nav>
-        	<div class="row" id="top">
-            	<div class="logo-container">
-            		<a href="/"><img src="assets/img/rb-logo.png"></a>
-          		</div>
-                <ul class="web-menu">
-             		<li><a href="about.htm">About</a></li>
-                	<li><a href="press.htm">Press</a></li>
-                  	<li><a href="contact.htm">Contact</a></li>
-                	<li><a href="http://rentbits.com/blog/" target="new">Blog</a></li>
-            	</ul>
+    <div id="page-wrapper">
+
+
+        <link rel="stylesheet" href="assets/css/app-features.css" />
+
+        <div class="mobile-nav hide">
+            <ul class="mobile-menu">
+                <li><a href="about.htm">About</a>
+                </li>
+                <li><a href="press.htm">Press</a>
+                </li>
+                <li><a href="contact.htm">Contact</a>
+                </li>
+                <li><a href="http://rentbits.com/blog/" target="new">Blog</a>
+                </li>
+            </ul>
+        </div>
+        <nav>
+            <div class="row" id="top">
                 <div class="sign-in-container">
-              		<a href="http://ads.rentbits.com/rm/sec/ssl/login.do" class="hide-for-small button round sign-in gradient" target="new">Sign In</a>
-             	</div>
+                    <a href="http://ads.rentbits.com/rm/sec/ssl/login.do" class="" target="new"><b>Sign In</b></a>
+                </div>
+                <div class="logo-container">
+                    <img src="assets/img/rb-logo.png">
+                </div>
+                <ul class="web-menu">
+                    <li><a href="#" class="sub">Features</a>
+                    </li>
+                    <li class="no-sub"><a href="about.htm">About</a>
+                    </li>
+                    <li class="no-sub"><a href="press.htm">Press</a>
+                    </li>
+                    <li class="no-sub"><a href="contact.htm">Contact</a>
+                    </li>
+                    <li class="no-sub"><a href="http://rentbits.com/blog/" target="new">Blog</a>
+                    </li>
+                    <!-- 
+              <li class="no-sub search-ui"><input class="search" placeholder="Search"></li> 
+              -->
+                </ul>
             </div>
-    	</nav>
+            <ul class="feature-nav">
+                <li>
+                    <h6 class="green-border">Marketing</h6>
+                    <ul>
+                        <li><a href="#">Lead Generation <span>Homes</span></a>
+                        </li>
+                        <li><a href="#">Lead Generation <span>Apts</span></a>
+                        </li>
+                        <li><a href="#">Direct Traffic</a>
+                        </li>
+                        <li><a href="#">Local Listing Management <span>Homes</span></a>
+                        </li>
+                        <li><a href="#">Local Listing Management <span>Apts</span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <h6 class="red-border">Reputation Management</h6>
+                    <ul>
+                        <li><a href="#">Review Management <span>Homes</span></a>
+                        </li>
+                        <li><a href="#">Review Management <span>Apts</span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <h6 class="orange-border">Tracking</h6>
+                    <ul>
+                        <li><a href="#">Tracking</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
         <header>
-        	<div class="image">
-        		<img src="assets/images/contact-hero-1.jpg" >
-        	</div>
+            <div class="image">
+                <img src="/img/cm/assets/images/contact-hero-1.jpg">
+            </div>
         </header>
-        
+
         <section id="about-summary" class="scroll-trigger">
-        	<div class="row">
-            	<div class="large-12 columns">
-                	<h2>We deliver the best tools for rental industry pros and killer 
-customer support. For us&#8218; it&#8217;s that simple.</h2>
+            <div class="row">
+                <div class="large-12 columns">
+                    <h2>
+                        We deliver the best tools for rental industry pros and killer customer support. For us&#8218; it&#8217;s that simple.
+                    </h2>
                 </div>
             </div>
             <div class="row">
-            	<div class="large-5 columns">
-                	<p class="large">Today, rentbits offers marketing&#8218; tracking&#8218 reputation management and resident retention tools for thousands of advertisers and millions of renters across the United States.</p>
+                <div class="large-5 columns">
+                    <p class="large">Today, rentbits offers marketing&#8218; tracking&#8218 reputation management and resident retention tools for thousands of advertisers and millions of renters across the United States.</p>
                 </div>
                 <div class="large-4 columns">
-                	<p>In 2006, the original idea was to build a scalable marketing and syndication solution for the rental market. Over the past seven years, the brand and the vision has evolved. </p>
+                    <p>In 2006, the original idea was to build a scalable marketing and syndication solution for the rental market. Over the past seven years, the brand and the vision has evolved.</p>
                 </div>
                 <div class="large-3 columns">
-                	<p>Our mission is to simplify the lives of renters and rental professionals. Learn more about our story <a href="the-rentibts-story.htm">here</a>.</p>
+                    <p>Our mission is to simplify the lives of renters and rental professionals. Learn more about our story <a href="the-rentbits-story.jsp">here</a>.</p>
                 </div>
                 <section class="module-cta-container">
-                 	<ul class="inline-list right">
-                    	<li><a class="button round primary" data-reveal-id="products-Modal">View Our Products</a></li>
-                  	</ul>
-                	<span style="clear:both;"></span>
-             	</section>
-        	</div>        
+                    <ul class="inline-list right">
+                        <li><a class="button round primary" data-reveal-id="products-Modal">View Our Products</a>
+                        </li>
+                    </ul>
+                    <span style="clear:both;"></span>
+                </section>
+            </div>
         </section>
         <section id="team">
-        	<div class="row">
-            	<div class="large-12 columns">
-                	<h2>Meet The Team</h2>
-            	</div>
+            <div class="row">
+                <div class="large-12 columns">
+                    <h2>Meet The Management Team</h2>
+                </div>
             </div>
-        	<div class="row">
-            	<div class="large-3 columns">
-                    <ul class="no-bullet">
-                        <li class="bio">
-                        	<img src="assets/images/team/dan-2013.png">
-                       		<div class="bio-sm">
-                            	<h5>Dan Daugherty <br><span>Board Member/CEO and President</span></h5>
-                                <p>As CEO, Dan sets, communicates and executes the rentbits vision with his stellar team. When not leading rentbits, Dan is seen snowboarding and playing Texas Hold&#8217;em no-limit poker.<!--<a href="#">keep reading</a>--></p>
-                                <ul class="no-bullet">
-									<li><a href="#board">more</a></li>                               
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="bio">
-                        	<img src="assets/images/team/kelly.png">
-                       		<div class="bio-sm">
-                            	<h5>Kelly Sandoval<br>Sr. Designer</h5>
-                                <p>Kelly&#8217;s belief&#8212;that everyone should love where they live&#8212;focuses his passion for User Experience to create helpful and intuitive interfaces. When not at work, he usually can be found on his bike.</p>
-<!--                                <ul class="no-bullet">
-									<li><a href="https://twitter.com/sandokel">@sandokel</a></li>                               
-                                </ul>-->
-                            </div>
-                        </li>
-                        <li class="bio">
-                        	<img src="assets/images/team/sandra.png">
-                       		<div class="bio-sm">
-                            	<h5>Sandra Hanna<br>Marketing Director</h5>
-                                <p>Sandra and her team are passionate about sharing the rentbits&#8217; brand and story with the world. She loves&#8212;chocolate, entrepreneurism, wine, and being mom *not necessarily in that order.</p>
-
-                            </div>
-                        </li>
-                    </ul>
-				</div>
-                <div class="large-3 columns"> 
-                    <ul class="no-bullet">
-                        <li class="bio">
-                        	<img src="assets/images/team/lisa.png">
-                       		<div class="bio-sm">
-                            	<h5>Lisa Ray <br><span>Board Member/CPO</span></h5>
-                                <p>Lisa is the driving force behind the loved rentbits&#8217; culture. She&#8217;s also a real estate maven, selling over $15 million in real estate and acquiring multiple investment properties.  Watch out Trump.<!--<a href="#">keep reading</a>--></p>
-                                <ul class="no-bullet">  
-                                    <li><a href="#board">more</a></li>                                
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="bio">
-                        	<img src="assets/images/team/zach.png">
-                       		<div class="bio-sm">
-                            	<h5>Zach Harper<br>Operations Manager</h5>
-                                <p>As Operations Manager, Zach monitors the performance of our accounts and ensures you receive Rockstar service! Call and he&#8217;ll tell you a joke!</p>
-                            </div>
-                        </li>
-                        <li class="bio">
-                        	<img src="assets/images/team/alex.png">
-                       		<div class="bio-sm">
-                            	<h5>Alex Novoselsky<br>Developer</h5>
-                                <p>A dedicated developer with a love for collaboration and a desire to solve problems.</p>
-                            </div>
-                        </li>
-                    </ul>
-				</div>
+            <div class="row">
                 <div class="large-3 columns">
-                	
                     <ul class="no-bullet">
-                        <li class="bio"  id="mike">
-                        	<img src="assets/images/team/mike.png">
-                       		<div class="bio-sm">
-                            	<h5>Mike Branam<br>VP Sales &amp; Operations</h5>
-                                <p>When Mikes not busy leading the world class rentbits sales and operations team, you&rsquo;ll find him playing super hero to his kids, or looking out for foul balls at a Rockies game.</p>
+                        <li class="bio">
+                            <img src="/img/cm/assets/images/team/dan-2013.png">
+                            <div class="bio-sm">
+                                <h5>Dan Daugherty
+                                    <br>President &amp; CEO</h5>
+                                <p>Dan's experience includes four years with Google during which time he spent in various management positions including running the operations team for the Mountain States Region. He helped to grow the region from $1 million in annual sales to over $100 million within four years. Dan received his business degree in International Business from Ohio Wesleyan University.</p>
                                 <ul class="no-bullet">
-									<li><a href="#">link</a></li>  
-                                    <li><a href="#">link</a></li>                               
+
                                 </ul>
                             </div>
                         </li>
+
+                    </ul>
+                </div>
+                <div class="large-3 columns">
+                    <ul class="no-bullet">
                         <li class="bio">
-                        	<img src="assets/images/team/aaron.png">
-                       		<div class="bio-sm">
-                            	<h5>Aaron Applegate<br>Account Manager</h5>
-                                <p>When he is not fly fishing in the Rockies or indulging his artistic side, Aaron is standing at attention managing the Multi-Family accounts for the Eastern territory</p>
+                            <img src="/img/cm/assets/images/team/lisa.png">
+                            <div class="bio-sm">
+                                <h5>Lisa Ray
+                                    <br>Chief People Officer</h5>
+                                <p>Lisa has extensive experience in real estate sales and real estate investing. Her accomplishments include selling over $15 million in real estate in two years and acquiring multiple investment properties. Lisa is a licensed real estate agent for the state of Colorado and has a double major from the University of Denver in Finance and Management.</p>
+                                <ul class="no-bullet">
+
+                                </ul>
                             </div>
-                        </li>
-                        <li class="bio">
-                        	<img src="assets/images/team/monica.png">
-                       		<div class="bio-sm">
-                            	<h5>Monica Lewandowski <br>Account Manager</h5>
-                                <p>Monica enjoys servicing the multifamily industry as a dedicated account manager. She is addicted to researching and can&#8217;t get enough of nature.
-</p>
-                            </div>
+
                         </li>
                     </ul>
-				</div>
+                </div>
+                <div class="large-3 columns">
+
+                    <ul class="no-bullet">
+                        <li class="bio" id="mike">
+                            <img src="/img/cm/assets/images/team/mike.png">
+                            <div class="bio-sm">
+                                <h5>Mike Branam
+                                    <br>VP Sales &amp; Operations</h5>
+                                <p>Mike's experience includes being on the ground floor to help launch and develop multiple start ups in the technology and real estate sectors. Mike's primary responsibilities have included business development, sales, operations, marketing and strategic planning with an emphasis on exceeding revenue initiatives. Mike graduated from Colorado State University with a B.A. in Communication Theory.</p>
+                            </div>
+
+                        </li>
+
+                    </ul>
+                </div>
                 <div class="large-3 columns">
 
                     <ul class="no-bullet">
                         <li class="bio">
-                        	<img src="assets/images/team/eric.png">
-                       		<div class="bio-sm">
-                            	<h5>Eric  Spery<br>Chief Technology Officer</h5>
-                                <p>Eric leads all things tech and innovation at rentbits. He is a huge proponent of the Lean Startup philosophy and a hack bluegrass guitarist.<!--<a href="#">keep reading</a>--></p>
-                                <ul class="no-bullet">
-									<li><a href="#">link</a></li>  
-                                    <li><a href="#">link</a></li>                               
-                                </ul>
+                            <img src="/img/cm/assets/images/team/eric.png">
+                            <div class="bio-sm">
+                                <h5>Eric Spery
+                                    <br>Chief Technology Officer</h5>
+                                <p>Prior to joining rentbits in January 2013, Eric served as the VP of Development at HomeAdvisor. A career developer with a passion for startup environments, Eric is a huge proponent of the Lean Startup philosophy. He can often be found evangelizing its tenets to anyone who will listen. Eric received his BA and MA in Communications Development from Colorado State University.</p>
                             </div>
+
                         </li>
                         <li class="bio">
-                        	<img src="assets/images/team/jenny.png">
-                       		<div class="bio-sm">
-                            	<h5>Jenny Storey<br>Account Manager</h5>
-                                <p>As Account Manager and Marketing Coordinator, Jenny is in charge of managing the single family homes division with a smile and tweeting and facebooking all of the exciting things rentbits is up to!</p>
-                            </div>
-                        </li>
-                        <li class="bio">
-                        	<img src="assets/images/team/ryan.png">
-                       		<div class="bio-sm">
-                            	<h5>Ryan Cone<br>Business Developer</h5>
-                                <p>As a business developer, Ryan is keen to lean in and listen to the needs and trends of multifamily professionals. And just try and keep him off the dance floor - we dare you! </p>
-                            </div>
                         </li>
                     </ul>
-				</div>
+                </div>
             </div>
         </section>
         <section id="board">
-        	<div class="row">
-            	<div class="large-12 columns">
-                	<h2>Meet the Board of Directors</h2>
+            <div class="row">
+                <div class="large-12 columns">
+                    <h2>Meet the Board of Directors</h2>
                     <div class="row">
-                    	<div class="large-6 columns">
-                        	<h5>Dan Daugherty <br><span>Board Member/CEO and President</span></h5>
+                        <div class="large-6 columns">
+                            <h5>Dan Daugherty
+                                <br>
+                                <span>Board Member/CEO and President</span>
+                            </h5>
                             <P>Dan's experience includes four years with Google during which time he spent in various management positions including running the operations team for the Mountain States Region. He helped to grow the region from $1 million in annual sales to over $100 million within four years. Mr Daugherty was nominated by his peers for the Denver Business Journal's inaugural "40 Under 40" designation. He serves on the Board of a non-profit called ShakePoverty.org and is a mentor for the Founders Institute. Dan is also active in residential real estate investing in Colorado and received his business degree in International Business from Ohio Wesleyan University.</P>
                         </div>
                         <div class="large-6 columns">
-                        	<h5>Lisa Ray <br><span>Board Member/CPO</span></h5>
+                            <h5>Lisa Ray
+                                <br>
+                                <span>Board Member/CPO</span>
+                            </h5>
                             <P>Lisa has extensive experience in real estate sales and real estate investing. Her accomplishments include selling over $15 million in real estate in two years and acquiring multiple investment properties. Lisa is a licensed real estate agent for the state of Colorado and has a double major from the University of Denver in Finance and Management.</P>
                         </div>
                     </div>
                     <div class="row">
-                    	<div class="large-6 columns">
-                        	<h5>Tim Moynihan <br><span>Board Member</span></h5>
+                        <div class="large-6 columns">
+                            <h5>Tim Moynihan
+                                <br>
+                                <span>Board Member</span>
+                            </h5>
                             <P>His experience includes founding the Mountain States operation for Google where he was responsible for sales, marketing and strategic planning. While at Google, Moynihan hired and managed a highly successful regional sales and operations team that built a $100 mil business in under 4 years of operation. Prior to Google, Moynihan was VP of Sales at Winstar Interactive Media, a major independent website representation firm, where he led the national sales and operations organizations. Tim received his BA degree from Colby College and MBA from the University of San Francisco.</P>
                         </div>
                         <div class="large-6 columns">
-                        	<h5>Craig Smith <br><span>Board Member</span></h5>
+                            <h5>Craig Smith
+                                <br>
+                                <span>Board Member</span>
+                            </h5>
                             <P>Craig Smith was appointed Chief Executive Officer of HomeAdvisor in January of 2008. A member of the HomeAdvisor team since 2000, Craig began his career in strategic financial planning and progressed into his current role as CEO. He previously acted as the senior vice president of the consumer division where he was charged with overseeing the company's Internet marketing strategy and customer service division. He was also responsible for consumer marketing and cultivating new strategic business partnerships.</P>
                         </div>
                     </div>
                     <div class="row">
-                    	<div class="large-6 columns">
-                        	<h5>James S. Gladney  <br><span>Board Member</span></h5>
-                            <P>Jim Gladney founded Liberty Capital Partners in 1994. He is an experienced private equity investor, venture capitalist and CEO who has spent the past 25 years starting up, buying, and building a broad array of over 50 companies domestically and internationally. His industry experience includes hospitality, business services, distribution, real estate & construction, software, franchising, manufacturing and media. He has served for 15 years as the CEO of operating companies and 10 years as the Managing Partner of private equity firms. Mr. Gladney has served on the Boards of Directors of over 25 companies and chaired numerous boards, audit committees, compensation committees and executive committees. He is a recognized expert in the areas of Mergers & Acquisitions, Corporate Finance, Corporate Advisory, Strategic Planning, Industry Consolidations, Franchising, Real Estate Development, Negotiation, Public Relations and Sales & Marketing.</P>
-                            <p> Mr. Gladney served as the Managing Partner of Park Avenue Equity Partners, a NYC based private equity firm specializing in acquiring middle market companies.</p>
-                            <p> Mr. Gladney was Chairman and CEO of Boston based All Seasons Services, Inc., a leading provider of vending, dining and office refreshment services with over 2000 employees. Mr. Gladney led a management group that acquired All Seasons. Mr. Gladney and his management team then acquired 36 additional companies in the industry executing a successful consolidation strategy. They grew the business from $80 million in revenue to over $200 million and sold the company to a private equity firm, thereby generating a sevenfold return for investors. For more information <a href="http://www.libertycapitalpartners.com/index.php/company/bios/jim_gladney/" target="new">click here</a></P>
+                        <div class="large-6 columns">
+                            <h5>James S. Gladney
+                                <br>
+                                <span>Board Member</span>
+                            </h5>
+                            <P>Jim Gladney founded Liberty Capital Partners in 1994. He is an experienced private equity investor, venture capitalist and CEO who has spent the past 25 years starting up, buying, and building a broad array of over 50 companies domestically and internationally. His industry experience includes hospitality, business services, distribution, real estate & construction, software, franchising, manufacturing and media. He has served for 15 years as the CEO of operating companies and 10 years as the Managing Partner of private equity firms. Mr. Gladney has served on the Boards of Directors of over 25 companies and chaired numerous boards, audit committees, compensation committees and executive committees. He is a recognized expert in the areas of Mergers &amp; Acquisitions, Corporate Finance, Corporate Advisory, Strategic Planning, Industry Consolidations, Franchising, Real Estate Development, Negotiation, Public Relations and Sales & Marketing.</P>
+                            <p>Mr. Gladney served as the Managing Partner of Park Avenue Equity Partners, a NYC based private equity firm specializing in acquiring middle market companies.</p>
+                            <p>Mr. Gladney was Chairman and CEO of Boston based All Seasons Services, Inc., a leading provider of vending, dining and office refreshment services with over 2000 employees. Mr. Gladney led a management group that acquired All Seasons. Mr. Gladney and his management team then acquired 36 additional companies in the industry executing a successful consolidation strategy. They grew the business from $80 million in revenue to over $200 million and sold the company to a private equity firm, thereby generating a sevenfold return for investors. For more information <a href="http://www.libertycapitalpartners.com/index.php/company/bios/jim_gladney/" target="new">click here</a>
+                            </P>
                         </div>
                         <div class="large-6 columns">
-                        	<h5>Nicole Milici  <br><span>Board Member</span></h5>
+                            <h5>Nicole Milici
+                                <br>
+                                <span>Board Member</span>
+                            </h5>
                             <p>Nicole Milici is the CEO of Spada Media, a Providence based marketing communications firm and also serves as Chief Marketing Officer for Liberty Capital Partners, a private equity firm that invests nationally in middle-market companies and technology start-ups.</p>
-                            <p> Mrs. Milici serves on the board of rentbits.com, a Denver based technology company that generates rental property leads for publicly traded REITs and other institutional property owners andmanagers.</p>
+                            <p>Mrs. Milici serves on the board of rentbits.com, a Denver based technology company that generates rental property leads for publicly traded REITs and other institutional property owners andmanagers.</p>
                             <p>She is a member of the Women Presidents Organization and serves on the Board of the American Red Cross.</p>
-                            <p> Nicole is an an award-winning designer, recognized nationally for her creative art direction and targeted marketing strategies. Her designs have won Emmy Awards, Adrian Awards and Summit Awards for the Rhode Island Meeting & Destination Guide, the Rhode Island Travel Guide, and television production of the Bristol, RI Fourth of July Parade. Most recently she was recognized for an Obie Award for the top billboard design in the US.</p>
-                            <p> Milici has worked with several non-profit and charitable organizations including Child & Family, Afri Afya, Water for Cambodia, and Visting Nurses. Milici's portfolio includes pioneering campaigns for government agencies, medical agencies, non-profits, national franchisors, financial institutions and multinational corporations. She has successfully created anddelivered media campaigns on behalf of a myriad of clients including Krispy Kreme, IMAX Theatres, MassMutual Financial Services, RI Builders Association, Foreside, Hyatt Hotels, DoubleTree Hotels and AAA.</p>
-                            <p> Nicole is a graduate of the University of Connecticut and studied for two years in Munich, Germany. She was born in Wiesbaden, Germany.</p>
+                            <p>Nicole is an an award-winning designer, recognized nationally for her creative art direction and targeted marketing strategies. Her designs have won Emmy Awards, Adrian Awards and Summit Awards for the Rhode Island Meeting & Destination Guide, the Rhode Island Travel Guide, and television production of the Bristol, RI Fourth of July Parade. Most recently she was recognized for an Obie Award for the top billboard design in the US.</p>
+                            <p>Milici has worked with several non-profit and charitable organizations including Child & Family, Afri Afya, Water for Cambodia, and Visting Nurses. Milici's portfolio includes pioneering campaigns for government agencies, medical agencies, non-profits, national franchisors, financial institutions and multinational corporations. She has successfully created anddelivered media campaigns on behalf of a myriad of clients including Krispy Kreme, IMAX Theatres, MassMutual Financial Services, RI Builders Association, Foreside, Hyatt Hotels, DoubleTree Hotels and AAA.</p>
+                            <p>Nicole is a graduate of the University of Connecticut and studied for two years in Munich, Germany. She was born in Wiesbaden, Germany.</p>
                             <p>She has lived in Rhode Island for over 20 years with her husband and four children.</p>
-                            
+
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
         <section id="love">
-        	<div class="row">
-            	<div class="large-8 columns">
-                	<h2>Who loves rentbits?</h2>
-                    <img src="assets/images/press-logos/press-love-section.png">
+            <div class="row">
+                <div class="large-8 columns">
+                    <h2>Who loves rentbits?</h2>
+                    <img src="/img/cm/assets/images/press-logos/press-love-section.png">
                 </div>
                 <div class="large-4 columns">
-                	<p class="quote">“rentbits.com is more than a source of advertising to Waterton Residential… they are a true business partner and an extension of our marketing department. Waterton Residential really appreciates their amazing service, outstanding product and proven results.”<br>
-                    <span class="attibution">&#8212; Virginia Love - VP of Leasing and Marketing (Waterton)</span></p>
+                    <p class="quote">"rentbits.com is more than a source of advertising to Waterton Residential... they are a true business partner and an extension of our marketing department. Waterton Residential really appreciates their amazing service, outstanding product and proven results."
+                        <br>
+                        <span class="attibution">&#8212; Virginia Love - VP of Leasing and Marketing (Waterton)</span>
+                    </p>
                 </div>
             </div>
         </section>
+
+
+
         <footer>
-        	<div class="row">
-            	<div class="large-3 columns">
-                	<p>&copy; copyright rentbits 2013</p>
-                </div>
+            <div class="row">
                 <div class="large-3 columns">
-                	<h6>Communication</h6>
+                    <h6>Communication</h6>
                     <ul class="no-bullet">
-                    	<li><a href="contact.htm">Contact Us</a></li>
-                        <li><a href="http://rentbits.com/blog/" target="new"></a></li>
-                       <!--<li><a href="#">FAQs</a></li>-->
-                        <li><a href="careers.htm">Careers</a></li>
+                        <li><a href="contact.jsp">Contact Us</a>
+                        </li>
+                        <!--<li><a href="#">FAQs</a></li>-->
+                        <li><a href="careers.jsp">Careers</a>
+                        </li>
+                        <li><a href="http://rentbits.com/blog/" target="new">Blog</a>
+                        </li>
+                        <li><a href="http://corp.rentbits.com/" target="new">Corporate Blog</a>
+                        </li>
                     </ul>
                 </div>
                 <div class="large-3 columns">
-                	<h6>Freebies</h6>
-                    <ul  class="no-bullet">
-                    	<li><a href="http://rentbits.com/rb/page/widgets.html" target="new">Widgets</a></li>
+                    <h6>Social</h6>
+                    <ul class="no-bullet">
+                        <li><a href="https://plus.google.com/108754144164229325109" rel="publisher" target="new">Google+</a>
+                        </li>
+                        <li><a href="https://www.facebook.com/rentbits" target="new">Facebook</a>
+                        </li>
+                        <li><a href="https://twitter.com/rentBits" target="new">Twitter</a>
+                        </li>
                     </ul>
                 </div>
                 <div class="large-3 columns">
-                	<h6>Legal</h6>
-                    <ul  class="no-bullet">
-                    	<li><a href="terms-of-use.htm">Terms of Use</a></li>
-                        <li><a href="privacy-policy.htm">Privacy Policy</a></li>
+                    <h6>Freebies</h6>
+                    <ul class="no-bullet">
+                        <li><a href="http://rentbits.com/rb/page/widgets.html" target="new">Widgets</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="large-3 columns">
+                    <h6>Legal</h6>
+                    <ul class="no-bullet">
+                        <li><a href="terms-of-use.jsp">Terms of Use</a>
+                        </li>
+                        <li><a href="privacy-policy.jsp">Privacy Policy</a>
+                        </li>
                     </ul>
                 </div>
             </div>
+            <center>
+                <p>&copy; copyright rentbits
+                    <script language="JavaScript" type="text/javascript">
+                    document.write((new Date()).getFullYear());
+                    </script>
+                </p>
+            </center>
         </footer>
 
-		<!-- modals -->
+        <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-231973-11']);
+        _gaq.push(['_setDomainName', '.rentbits.com']);
+        _gaq.push(['_setAllowHash', 'false']);
+        _gaq.push(['_trackPageview']);
+        _gaq.push(['_trackPageLoadTime']);
+
+        (function() {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+
+        $(document).ready(function() {
+            //display sub nav function
+            $('.sub').click(function(event) {
+                event.preventDefault();
+            });
+            $('.sub').mouseover(function(event) {
+                $('.feature-nav').show();
+                $('.sub').addClass('sub-active')
+            });
+            // hide sub nav on mouse out function
+            $('nav').mouseleave(function(event) {
+                $('.feature-nav').fadeOut('fast');
+                $('.sub').removeClass('sub-active')
+            });
+            $('.web-menu').find('.no-sub').mouseover(function() {
+                $('.feature-nav').fadeOut('fast');
+                $('.sub').removeClass('sub-active')
+            });
+            $('#team ul li').mouseenter(function() {
+                $(this).addClass('z-up');
+                $('.z-up .bio-sm').fadeIn(250, 'swing');
+            });
+            $('#team ul li').mouseleave(function() {
+                $(this).removeClass('z-up');
+                $('.bio-sm').hide();
+            });
+        });
+        </script>
+
+
+        <!-- modals -->
+
+        <!--start product modal-->
         <div id="products-Modal" class="reveal-modal xlarge">
-       		<h2>Simply awesome products!</h2>
-			<div class="row">
-            	<div class="large-6 columns">
-                	<p class="large">Maximize profits, lower marketing costs and manage your online brand with one integrated solution.</p>
-                  	<div class="row">
-                    	<div class="large-8 columns" style="background-color: rgba(255, 255,255,.7); border-radius: 4px;">
-                        	<h5>rentbits Product</h5>
-                            <p>Save time and money by integrating 3 very important aspects to your daily business needs. We pride ourselves on quality leads!</p>
-                            <ul class="disc">
-                            	<li><b>Marketing</b></li>
-                                <li><b>Tracking</b></li>
-                                <li><b>Reputation Management</b></li>
-                                <li><b>Resident Retention</b></li>
-                            </ul>
-                        </div>
-                        <div class="large-4 columns">
-                        	<a href="http://vimeo.com/60713430"><span data-tooltip class="has-tip tip-left" title="Watch our short info video."><img src="assets/images/insights-thumb-v2.png" class="shadow"></span></a>
-                        </div>
-                    </div>
-                	<center><a href="#" class="button medium primary round" data-reveal-id="demo-insights-Modal">Request a Demo</a></center>	
-                </div>
-                
-                <div class="large-6 columns">
-                	<p class="large">Keep your residents happy and lower your costs.<br><br></p>
-                  	<div class="row">
-                    	<div class="large-8 columns">
-                        	<h5>Resident Buddy</h5>
-                            <p>One simple solution to reduce resident turnover&#8212;meet your residents needs and create a strong community.</p>
-                            <ul class="disc">
-                            	<li><b>Meet Residents Needs</b></li>
-                                <li><b>Simplify Commnutication</b></li>
-                                <li><b>Connect your Community</b></li>
-                            </ul>
-                        </div>
-                        <div class="large-4 columns">
-                        	<a href="https://vimeo.com/56786133"><span data-tooltip class="has-tip tip-left" title="Watch our short info video."><img src="assets/images/rb4-thumb.png" class="shadow"></span></a>
-                        </div>
-                    </div>
-                	<center><a hidden="#" class="button medium primary round" data-reveal-id="demo-resident-buddy-Modal">Request a Demo</a></center>	
+            <div class="row">
+                <div class="large-9 columns large-offset-3">
+                    <h2>Simply awesome products!</h2>
                 </div>
             </div>
-          	<a class="close-reveal-modal">&#215;</a>
+            <div class="row">
+                <div class="large-9 columns large-offset-3">
+                    <p class="large">Maximize profits, lower marketing costs and manage your online brand with one integrated solution.</p>
+                    <div class="row">
+                        <div class="large-8 columns" style="background-color: rgba(255, 255,255,.825); border-radius: 4px;">
+                            <h5>rentbits Product</h5>
+                            <p>Save time and money by integrating 3 very important aspects to your daily business needs. We pride ourselves on quality leads!</p>
+                            <ul class="disc">
+                                <li><b>Marketing</b>
+                                </li>
+                                <li><b>Tracking</b>
+                                </li>
+                                <li><b>Reputation Management</b>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="large-4 columns">
+                            <a href="http://vimeo.com/60713430">
+                                <span data-tooltip class="has-tip tip-left" title="Watch our short info video.">
+                                    <img src="assets/images/insights-thumb-v2.png" class="shadow">
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <center><a href="#" class="button medium primary round" data-reveal-id="demo-insights-Modal">Request a Demo</a>
+                    </center>
+                </div>
+            </div>
+            <a class="close-reveal-modal">&#215;</a>
         </div>
-        
+        <!--end product modal-->
+
+        <!--start contact modal-->
         <div id="contact-Modal" class="reveal-modal xlarge">
-       		<h2>Ok, tell us a little bit about yourself.</h2>
-			<div class="row">
+            <h2>Get Started With a Product Demo</h2>
+            <div class="row">
                 <div class="large-7 columns large-offset-5">
-                	<p><span class="large">We&rsquo;ll get back to you shortly.</span><br>
-                    To speak to someone on our operations or customer service team please call us at 303-640-3160.</p>
-                    <form action="send.jsp" target="_blank">
+                    <form id="contact" class="custom contact">
+                        <label>Your Full Name</label>
+                        <input type="text" name="Name" id="Name">
+                        <label>Email Address (we'll keep it private)</label>
+                        <input type="text" name="Email" id="Email">
+                        <label>Phone Number</label>
+                        <input type="text" name="phone">
+                        <select id="customDropdown1">
+                            <option>Choose a Topic</option>
+                            <option>Technical Support</option>
+                            <option>Sales Inquirey</option>
+                            <option>Customer Service</option>
+                            <option>Other...</option>
+                        </select>
+                        <label>Message</label>
+                        <textarea cols="3"></textarea>
+                        <input type="hidden" name="recipient" value="SALES" />
+                        <input type="hidden" name="recipient" value="TECH" />
+                        <input type="hidden" name="recipient" value="OPS" />
+                        <input type="hidden" name="subject" value="Operations Contact Request From Website" />
+                        <input type="hidden" name="successPage" value="index.htm" />
+                        <button id="contactButton" class="button medium primary round right">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <a class="close-reveal-modal">&#215;</a>
+        </div>
+        <!--end contact modal-->
+
+        <!--start remotely demo modal-->
+        <div id="demo-resident-buddy-Modal" class="reveal-modal xlarge">
+            <h2>Request a remotely demo</h2>
+            <div class="row">
+                <div class="large-6 columns">
+                    <form action="send.jsp" id="rb4-demo" class="sales">
                         <label>Your Full Name</label>
                         <input type="text" name="name">
                         <label>Email Address (we'll keep it private)</label>
@@ -353,53 +480,31 @@ customer support. For us&#8218; it&#8217;s that simple.</h2>
                         <input type="text" name="Community">
                         <label>State</label>
                         <input type="text" name="state">
-                        <label><input type="checkbox" name="client"> I am a client.</label>
-                        <input type="hidden" name="recipient" value="OPS"/>
-                        <input type="hidden" name="subject" value="Operations Contact Request From Website"/>
-                        <button class="button medium primary round right">Send Message</button>
-                    </form>
-                </div>
-            </div>
-          	<a class="close-reveal-modal">&#215;</a>
-        </div>
-        
-        <div id="demo-resident-buddy-Modal" class="reveal-modal xlarge">
-       		<h2>Set up a Resident Buddy Demo.</h2>
-			<div class="row">
-                <div class="large-6 columns">
-                	<p><span class="large">We&rsquo;ll get back to you shortly.</span><br>
-                    To speak to someone on our operations or customer service team please call us at 303-640-3160.</p>
-                    <form action="send.jsp" target="_blank">
-                  		<label>Your Full Name</label>
-                        <input type="text" name="name">
-                        <label>Email Address (we'll keep it private)</label>
-                        <input type="text" name="email">
-                        <label>Name of Community</label>
-                        <input type="text" name="Community">
-                        <label>State</label>
-                        <input type="text" name="state">
-                        <label><input type="checkbox" name="client"> I am a client.</label>
-                        <input type="hidden" name="recipient" value="DEMO"/>
-                        <input type="hidden" name="subject" value="Resident Buddy Demo Request from Website"/>
+                        <label>
+                            <input type="checkbox" name="client">I am a client.</label>
+                        <input type="hidden" name="recipient" value="DEMO" />
+                        <input type="hidden" name="subject" value="Resident Buddy Demo Request from Website" />
+                        <input type="hidden" name="successPage" value="index.htm" />
                         <button class="button medium primary round right">Send Message</button>
                     </form>
                 </div>
                 <div class="large-6 columns">
-                  	<p><a href="https://vimeo.com/56786133" target="new" class="movie-link">Watch our short info movie</a></p>
-                	<img src="assets/images/res-bud-demmo-modal.png" style="position:relative; bottom:-30px; right:-45px; clear:both;">
+                    <p><a href="https://vimeo.com/56786133" target="new" class="movie-link">Watch our short info movie</a>
+                    </p>
+                    <img src="assets/images/remotely-demo-modal.png" style="position:relative; bottom:-30px; right:-45px; clear:both;">
                 </div>
             </div>
-          	<a class="close-reveal-modal">&#215;</a>
+            <a class="close-reveal-modal">&#215;</a>
         </div>
-        
+        <!--end remotely demo modal-->
+
+        <!--start insights demo modal-->
         <div id="demo-insights-Modal" class="reveal-modal xlarge">
-       		<h2>Set up an rentbits Product Demo.</h2>
-			<div class="row">
+            <h2>Request a Product Demo</h2>
+            <div class="row">
                 <div class="large-6 columns">
-                	<p><span class="large">We&rsquo;ll get back to you shortly.</span><br>
-                    To speak to someone on our operations or customer service team please call us at 303-640-3160.</p>
-                    <form action="send.jsp" target="_blank">
-                  		<label>Your Full Name</label>
+                    <form action="send.jsp" id="gpm-demo" class="sales">
+                        <label>Your Full Name</label>
                         <input type="text" name="name">
                         <label>Email Address (we'll keep it private)</label>
                         <input type="text" name="email">
@@ -407,81 +512,125 @@ customer support. For us&#8218; it&#8217;s that simple.</h2>
                         <input type="text" name="Community">
                         <label>State</label>
                         <input type="text" name="state">
-                        <label><input type="checkbox" name="client"> I am a client.</label>
-                        <input type="hidden" name="recipient" value="OPS"/>
-                        <input type="hidden" name="subject" value="Insights Demo Request from Website"/>
-                        <button class="button medium primary round right">Send Message</button>
+                        <label>
+                            <input type="checkbox" name="client">I am a client.</label>
+                        <input type="hidden" name="recipient" value="OPS" />
+                        <input type="hidden" name="subject" value="Insights Demo Request from Website" />
+                        <input type="hidden" name="successPage" value="index.htm" />
+                        <button class="button medium primary round right">Submit</button>
                     </form>
                 </div>
                 <div class="large-6 columns">
-                	<img src="assets/images/meet-robin-thumb.png" class="left" style="margin-left: 14%; padding-right: 10px;">
-                	<p><a href="http://vimeo.com/60713430" target="new" class="movie-link">Watch our movie</a></p>
-                	<img src="assets/images/rentbits-product-demmo-modal.png" style="position:relative; bottom:-30px; right:-45px;">
+                    <img src="assets/images/meet-robin-thumb.png" class="left" style="margin-left: 14%; padding-right: 10px;">
+                    <p><a href="http://vimeo.com/60713430" target="new" class="movie-link">Watch our movie</a>
+                    </p>
+                    <img src="assets/images/insights-demmo-modal-v2.png" style="position:relative; bottom:-30px; right:-45px;">
                 </div>
             </div>
-          	<a class="close-reveal-modal">&#215;</a>
+            <a class="close-reveal-modal">&#215;</a>
         </div>
-        
-        
+        <!--end insights demo modal-->
+
+        <!--start thank you modal-->
+        <div id="thank-you-Modal" class="reveal-modal xlarge">
+            <h2>Thank you for your interest!</h2>
+            <div class="row">
+                <div class="large-6 columns">
+                    <p>We’ll get back to you shortly. To speak to someone on our operations or customer service team give us a call at 303-640-3160.</p>
+                </div>
+                <div class="large-6 columns">
+                    <div class="fb-like" data-send="true" data-layout="box_count" data-width="450" data-show-faces="true" data-font="arial"></div>
+                </div>
+            </div>
+            <a class="close-reveal-modal">&#215;</a>
+        </div>
+        <!--end thank you modal-->
+
+        <!--start demo thank you modal-->
+        <div id="demo-thank-you-Modal" class="reveal-modal xlarge">
+            <h2>Thank you for your interest!</h2>
+            <div class="row">
+                <div class="large-12 columns">
+                    <p>We’ll get back to you shortly. To speak to someone on our operations or customer service team give us a call at 303-640-3160.</p>
+                </div>
+            </div>
+            <a class="close-reveal-modal">&#215;</a>
+        </div>
+        <!--end demo thank you modal-->
+
+    </div><!--end page wrapper-->
+
+    <script>
+    $(document).ready(function() {
+        $('#insightsDemoButton').click(function() {
+            var isValid = $('form#insightsDemo').validate();
+            if (isValid) {
+                $.post("contactRequest", $("form#insightsDemo").serialize(), function(response) {
+                    $('#demo-thank-you-Modal').foundation('reveal', 'open');
+                    $("form#insightsDemo")[0].reset();
+                });
+            }
+            return false;
+        });
+    });
+    </script>
     </div>
-	
-  <script>
-  document.write('<script src=' +
-  ('__proto__' in {} ? 'foundation-4.0.4/js/vendor/zepto' : 'foundation-4.0.4/js/vendor/jquery') +
-  '.js><\/script>')
-  </script>
-  
-  <script src="foundation-4.0.4/js/foundation.min.js"></script>
-  <!--
-  
-  <script src="js/foundation/foundation.js"></script>
-  
-  <script src="js/foundation/foundation.alerts.js"></script>
-  
-  <script src="js/foundation/foundation.clearing.js"></script>
-  
-  <script src="js/foundation/foundation.cookie.js"></script>
-  
-  <script src="js/foundation/foundation.dropdown.js"></script>
-  
-  <script src="js/foundation/foundation.forms.js"></script>
-  
-  <script src="js/foundation/foundation.joyride.js"></script>
-  
-  <script src="js/foundation/foundation.magellan.js"></script>
-  
-  <script src="js/foundation/foundation.orbit.js"></script>
-  
-  <script src="js/foundation/foundation.placeholder.js"></script>
-  
-  <script src="js/foundation/foundation.reveal.js"></script>
-  
-  <script src="js/foundation/foundation.section.js"></script>
-  
-  <script src="js/foundation/foundation.tooltips.js"></script>
-  
-  <script src="js/foundation/foundation.topbar.js"></script>
-  
-  -->
-  
-<!--  <script>
+
+
+    <!--  <script>
     $(document).foundation();
   </script>-->
-  
-  <script>  
-	$(document).foundation('orbit', {animation_speed:180,timer_speed:7000});
-  </script>
-   <script>  
-	$(document).foundation('reveal');
-  </script>
-  <script>  
-	$(document).foundation('tooltips');
-  </script>
-  <script>
-  $('.bio-sm').hide();
-  </script>
 
-  <script src="assets/js/app.js"></script>
+    <script>
+    $(document).foundation('orbit', {
+        animation_speed: 180,
+        timer_speed: 7000
+    });
+    </script>
+    <script>
+    $(document).foundation('reveal');
+    </script>
+    <script>
+    $(document).foundation('tooltips');
+    </script>
+    <script>
+    $('.bio-sm').hide();
+    </script>
+
+    <script>
+    $('#rbDemoButton').click(function() {
+        var isValid = $('form#rbDemo').validate({
+            name: {
+                required: true,
+                _msg: 'Please include a contact name.'
+            },
+            email: {
+                required: true,
+                email: true,
+                _msg: 'Please include a valid email address.'
+            }
+        });
+        if (isValid) {
+            $.post("contactRequest", $("form#rbDemo").serialize(), function(response) {
+                $('#demo-thank-you-Modal').foundation('reveal', 'open');
+                $("form#rbDemo")[0].reset();
+            });
+        }
+        return false;
+    });
+
+    $('div.reveal-modal').bind('open', function() {
+        var forms = $(this).find('form');
+        if (forms.size() > 0) {
+            $(forms[0]).validate("reset");
+            forms[0].reset();
+        }
+    });
+    </script>
+
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/validate.jquery.js"></script>
 
 </body>
+
 </html>
