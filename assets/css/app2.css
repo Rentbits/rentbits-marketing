@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Fonts */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,cyrillic-ext);
+
+ @font-face {font-family: 'ProximaNovaS-Semibold';src: url('webfonts/105F8F_0.eot');src: url('webfonts/105F8F_0.eot?#iefix') format('embedded-opentype'),url('webfonts/105F8F_0.woff') format('woff'),url('webfonts/105F8F_0.ttf') format('truetype'),url('webfonts/105F8F_0.svg#wf') format('svg');}
+ @font-face {font-family: 'ProximaNovaA-Regular';src: url('webfonts/105F8F_1.eot');src: url('webfonts/105F8F_1.eot?#iefix') format('embedded-opentype'),url('webfonts/105F8F_1.woff') format('woff'),url('webfonts/105F8F_1.ttf') format('truetype'),url('webfonts/105F8F_1.svg#wf') format('svg');}
+ @font-face {font-family: 'ProximaNovaA-Semibold';src: url('webfonts/105F8F_2.eot');src: url('webfonts/105F8F_2.eot?#iefix') format('embedded-opentype'),url('webfonts/105F8F_2.woff') format('woff'),url('webfonts/105F8F_2.ttf') format('truetype'),url('webfonts/105F8F_2.svg#wf') format('svg');}
+ @font-face {font-family: 'ProximaNovaS-Regular';src: url('webfonts/105F8F_3.eot');src: url('webfonts/105F8F_3.eot?#iefix') format('embedded-opentype'),url('webfonts/105F8F_3.woff') format('woff'),url('webfonts/105F8F_3.ttf') format('truetype'),url('webfonts/105F8F_3.svg#wf') format('svg');}
+ @font-face {font-family: 'ProximaNova-Regular';src: url('webfonts/105F8F_4.eot');src: url('webfonts/105F8F_4.eot?#iefix') format('embedded-opentype'),url('webfonts/105F8F_4.woff') format('woff'),url('webfonts/105F8F_4.ttf') format('truetype'),url('webfonts/105F8F_4.svg#wf') format('svg');}
+ @font-face {font-family: 'ProximaNova-Semibold';src: url('webfonts/105F8F_5.eot');src: url('webfonts/105F8F_5.eot?#iefix') format('embedded-opentype'),url('webfonts/105F8F_5.woff') format('woff'),url('webfonts/105F8F_5.ttf') format('truetype'),url('webfonts/105F8F_5.svg#wf') format('svg');}
+
+
+
+h1 { font-size:32px; font-family: 'ProximaNovaS-Semibold', sans-serif; color:#fff; background-color: #3e8ddd; padding: 20px; text-shadow: 1px 1px 1px rgba(0,0,0,.3); }
+h2 { font-size: 48px; font-family: 'ProximaNovaS-Regular', sans-serif; font-weight: 300; color: #959698; line-height: 30px; padding: 0; margin: 0; }
+h3 { font-size: 48px; font-family: 'ProximaNovaS-Regular', sans-serif; font-weight: 400; color: #959698; }
+h4 { font-size:18px; font-family: 'ProximaNovaS-Semibold', sans-serif; font-weight: 600; }
+p { font-size: 15px; font-family: Georgia, "Times New Roman", Times, serif; font-weight: normal; color: #000; }
+p.large { font-size: 15px; font-family: Georgia, "Times New Roman", Times, serif; font-weight: normal; color: #000; }
+p.knockout { font-size: 14px; font-family: 'ProximaNovaS-Regular', sans-serif; font-weight: 400; color: #ccc; background-color: #000; padding: 20px; }
+.button { font-size:18px; font-family: 'ProximaNovaS-Semibold', sans-serif; font-weight: 700; }
+

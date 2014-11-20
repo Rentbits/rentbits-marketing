@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+	<meta charset="utf-8" />
+  	<meta name="viewport" content="width=device-width" />
+  <title>rentbits homepage</title>
+
+  <link rel="stylesheet" href="foundation-4.0.4/css/normalize.css" />
+  
+  <link rel="stylesheet" href="foundation-4.0.4/css/foundation.css" />
+  <link rel="stylesheet" href="assets/css/app.css" />
+
+  <script src="foundation-4.0.4/js/vendor/custom.modernizr.js"></script>
+  <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+  <script src="http://www.webreference.com/programming/javascript/jquery/form_validation/jquery.validate.js"></script>
+  <script src="assets/js/app.js"></script>
+    <!--form validation-->
+  <script> 
+	$(document).ready(function() { 
+	  $('#contact').validate({ 
+	    rules: { 
+	      Name: 'required',    // simple rule, converted to {required: true} 
+	      Email: {             // compound rule 
+	      	required: true, 
+	        Email: true 
+	      }
+	    }
+	  }); 
+	}); 
+  </script>
+  
+  
+</head>
+<body id="homepage">
+	<div id="page-wrapper">
+    	<nav class="top-bar">
+       		<ul class="title-area">
+            	<li class="name logo"><h1><a href="">rentbits logo</a></h1></li>
+          	</ul>
+        	<section class="top-bar-section">
+          		<ul class="left">
+             		<li><a href="about.htm">About</a></li>
+                	<li><a href="press.htm">Press</a></li>
+                  	<li><a href="contact.htm">Contact</a></li>
+                	<li><a href="http://rentbits.com/blog/" target="new">Blog</a></li>
+            	</ul>
+           		<ul class="right">
+              		<li><a href="http://ads.rentbits.com/rm/sec/ssl/login.do" class="hide-for-small button round sign-in gradient" target="new">Sign In</a></li>
+                	<li><a href="" class="toggle-topbar menu-icon">Menu</a></li>
+             	</ul>
+         	</section>
+     	</nav>
+        <header>
+        	<div class="image">
+        		<!--jquery will populate a random image from an array here -->
+        	</div>
+            <div class="cta text-center">
+            	<h1>Products for rental industry pros<br>that save time and money.</h1>
+              	<a class="button medium round primary" data-reveal-id="contact-Modal" >Get Started Today</a>
+        	</div>
+        </header>
+        <section id="hero-bottom">
+        	<div class="row">
+            	<div class="large-6 columns zack-factor">
+                	<p>More than 8&#8218;500 property managers &amp; owners have discovered the rentbits difference.</p>
+                    <p>Our team is here to help guide your experience with our products. At rentbits we&rsquo;re about technology simplified and killer customer support.</p>
+               	</div>
+               	<div class="large-6 columns product-placment">
+                	<img src="assets/images/product-hero.png" >
+             	</div>
+            </div>
+        </section>
+        <section id="love" class="scroll-trigger">
+        	<div class="row">
+            	<div class="large-8 columns">
+                	<h2>Who loves rentbits?</h2>
+                    <img src="assets/images/press-logos/press-love-section.png">
+                </div>
+                <div class="large-4 columns">
+                	<p class="quote">“rentbits.com is more than a source of advertising to Waterton Residential… they are a true business partner and an extension of our marketing department. Waterton Residential really appreciates their amazing service, outstanding product and proven results.”<br>
+                    <span class="attibution">&#8212; Virginia Love - VP of Leasing and Marketing (Waterton)</span></p>
+                </div>
+            </div>
+        </section>
+        <section id="product-carousel">
+        	<div class="row">
+            	<div class="large-12 columns">
+                	<ul id="featured" data-orbit>
+                    	<li data-orbit-slide="headline-1">
+                    		<div class="row">
+                            	<div class="large-5 columns">
+                                	<img src="assets/images/insights-hp-carousel.png">
+                                    <p class="quote">“Rentbits has already paid for itself, within the first 2 months”<br><span class="attibution"></span></p>
+                                </div>
+                                <div class="large-3 columns text-column">
+                                	<h5>Insights</h5>
+                                	<p class="large">Are you confident that your lead and reputation management programs are centered around quality, simplicity and ROI?</p>
+                                </div>
+                                <div class="large-4 columns text-column">
+                                	<h5>&nbsp;</h5>
+                                	<p>Insights was designed for rental industry pros who want to spend less time and money filling vacancies, while making it easy to monitor online reviews.  Our quality over quantity approach to lead generation helps reduce your cost per lease while keeping you in the know of any online reviews.</p>
+                                </div>
+                                <section class="module-cta-container">
+                                	<ul class="inline-list right">
+                                    	<li><a href="#" data-reveal-id="products-Modal">Learn More</a></li>
+                                        <li class="gray-lt">or</li>
+                                        <li><a class="button medium round primary" data-reveal-id="demo-insights-Modal">Request a Demo</a></li>
+                                    </ul>
+                                	<span style="clear:both;"></span>
+                                </section>
+                            </div>
+                  		</li>
+                  		<li data-orbit-slide="headline-2">
+                    		<div class="row">
+                            	<div class="large-5 columns">
+                                	<img src="assets/images/residentbuddy-hp-carousel.png">
+                                    <p class="quote">“This is exactly what I dreamed about in connecting my residents to our community.”<br><span class="attibution">&#8212; Nicole Hancock, Cornerstone</span></p>
+                                </div>
+                                <div class="large-3 columns text-column">
+                                	<h5>Resident Buddy</h5>
+                                	<p class="large">It costs $3500 each time you lose a resident, yet 60% of resident retention can be controlled. </p>
+                                </div>
+                                <div class="large-4 columns text-column">
+                                	<h5>&nbsp;</h5>
+                                	<p>Are you confident that you're doing all you can to close the back door on resident retention? Resident Buddy is designed for successful property managers who know that happy residents mean less time and money spent filling vacancies.</p>
+                                </div>
+                                <section class="module-cta-container">
+                                	<ul class="inline-list right">
+                                    	<li><a href="#" data-reveal-id="products-Modal">Learn More</a></li>
+                                        <li class="gray-lt">or</li>
+                                        <li><a class="button medium round primary" data-reveal-id="demo-resident-buddy-Modal">Request a Demo</a></li>
+                                    </ul>
+                                	<span style="clear:both;"></span>
+                                </section>
+                            </div>
+                  		</li>
+                  		<li data-orbit-slide="headline-3">
+                    		<div class="row">
+                            	<div class="large-4 columns">
+                                	<img src="assets/images/ops-hp-carousel.png" style="margin-top: 20px;">
+                                </div>
+                                <div class="large-4 columns text-column">
+                                	<h5>Operational Support</h5>
+                                	<p class="large">We believe that delivering on a promise plays a very important role in how you think about using technology.</p>
+                                </div>
+                                <div class="large-4 columns text-column">
+                                	<h5>&nbsp;</h5>
+                                	<p>That is why at rentbits we have put a lot of focus not just on building great products that save time and increase the bottom line, but also on offering the very best in customer support.</p>
+                                </div>
+
+                                <section class="module-cta-container">
+                                	<ul class="inline-list right">
+                                        <li><a class="button medium round primary" data-reveal-id="contact-Modal">Contact Us</a></li>
+                                    </ul>
+                                	<span style="clear:both;"></span>
+                                </section>
+                            </div>
+                  		</li>
+                	</ul>
+                </div>
+            </div>
+        </section>
+		<section id="homes-section">
+        	<div class="row">
+            	<div class="large-12 columns">
+                	<h2>Rental Homes Advertising</h2>
+                </div>
+            </div>
+        	<div class="row">
+            	<div class="large-4 columns">
+                	<h5>Grow Your Business</h5>
+                    <p class="large">Reach more tenants by creating your home rental ad and see it distributed to the 70+ unique rental and classified web-sites in our network.</p>
+                </div>
+                <div class="large-3 columns">
+                	<h5>&nbsp;</h5>
+                	<p>And if you're ready to  increase your revenue potential, we offer a suite of custom tools designed to attract new owners and new business.</p>
+                </div>
+                <div class="large-5 columns">
+                	<img src="assets/images/homes-hp.png">
+                </div>
+                <section class="module-cta-container">
+                     	<ul class="inline-list right">
+                        	<li><a href="http://rentbits.com/rb/page/advertise-houses.html" target="new" class="button medium round primary">Post Rentals Today</a></li>
+                    	</ul>
+                	<span style="clear:both;"></span>
+            	</section>
+            </div>
+        </section>
+        <section id="search">
+        	<div class="row">
+            	<div class="large-12 columns">
+                	<h2>Rental Search</h2>
+                </div>
+            </div>
+        	<div class="row">
+            	<div class="large-3 columns">
+                	<p class="large">Search hundreds of thousands of rentals nationwide and in your local area.</p>
+                </div>
+                <div class="large-4 columns">
+                	<p>We haven't forgotten where we came from. In 2006, we started out by offering a central place to search for rentals, and as you can see, we still do. Of course, a few things have changed at rentbits since 2006, take a look at what we've been up to. <a href="the-rentibts-story.htm">Keep reading</a> </p>
+                </div>
+                <div class="large-5 columns">
+                	<section class="module-cta-container">
+                     	<ul class="inline-list right">
+                        	<li style="margin-top: 80px;"><a href="http://rentbits.com/rb/s/search-rentals" target="new" class="button medium round secondary">Search Rentals</a></li>
+                    	</ul>
+                	<span style="clear:both;"></span>
+            	</section>
+                </div>
+            </div>
+        </section>
+        <footer>
+        	<div class="row">
+            	<div class="large-3 columns">
+                	<p>&copy; copyright rentbits 2013</p>
+                </div>
+                <div class="large-3 columns">
+                	<h6>Communication</h6>
+                    <ul class="no-bullet">
+                    	<li><a href="contact.htm">Contact Us</a></li>
+                        <li><a href="http://rentbits.com/blog/" target="new"></a></li>
+                        <li><a href="careers.htm">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="large-3 columns">
+                	<h6>Freebies</h6>
+                    <ul  class="no-bullet">
+                    	<li><a href="http://rentbits.com/rb/page/widgets.html" target="new">Widgets</a></li>
+                    </ul>
+                </div>
+                <div class="large-3 columns">
+                	<h6>Legal</h6>
+                    <ul  class="no-bullet">
+                    	<li><a href="terms-of-use.htm">Terms of Use</a></li>
+                        <li><a href="privacy-policy.htm">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <!-- modals -->
+        <div id="products-Modal" class="reveal-modal xlarge">
+       		<h2>Simply awesome products!</h2>
+			<div class="row">
+            	<div class="large-6 columns">
+                	<p class="large">Maximize profits, lower marketing costs and manage your online brand with one integrated solution.</p>
+                  	<div class="row">
+                    	<div class="large-8 columns" style="background-color: rgba(255, 255,255,.825); border-radius: 4px;">
+                        	<h5>Insights</h5>
+                            <p>Save time and money by integrating 3 very important aspects to your daily business needs. We pride ourselves on quality leads!</p>
+                            <ul class="disc">
+                            	<li><b>Marketing</b></li>
+                                <li><b>Tracking</b></li>
+                                <li><b>Reputation Management</b></li>
+                            </ul>
+                        </div>
+                        <div class="large-4 columns">
+                        	<a href="http://vimeo.com/60713430"><span data-tooltip class="has-tip tip-left" title="Watch our short info video."><img src="assets/images/insights-thumb.png" class="shadow"></span></a>
+                        </div>
+                    </div>
+                	<center><a href="#" class="button medium primary round" data-reveal-id="demo-insights-Modal">Request a Demo</a></center>	
+                </div>
+                
+                <div class="large-6 columns">
+                	<p class="large">Keep your residents happy and lower your costs.<br><br></p>
+                  	<div class="row">
+                    	<div class="large-8 columns">
+                        	<h5>Resident Buddy</h5>
+                            <p>One simple solution to reduce resident turnover&#8212;meet your residents needs and create a strong community.</p>
+                            <ul class="disc">
+                            	<li><b>Meet Residents Needs</b></li>
+                                <li><b>Simplify Communication</b></li>
+                                <li><b>Connect your Community</b></li>
+                            </ul>
+                        </div>
+                        <div class="large-4 columns">
+                        	<a href="https://vimeo.com/56786133"><span data-tooltip class="has-tip tip-left" title="Watch our short info video."><img src="assets/images/rb4-thumb.png" class="shadow"></span></a>
+                        </div>
+                    </div>
+                	<center><a hidden="#" class="button medium primary round" data-reveal-id="demo-resident-buddy-Modal">Request a Demo</a></center>	
+                </div>
+            </div>
+          	<a class="close-reveal-modal">&#215;</a>
+        </div>
+        <style>
+		.placeholder { color: #999; }
+		</style>
+        <div id="contact-Modal" class="reveal-modal xlarge">
+       		<h2>Ok, tell us a little bit about yourself.</h2>
+			<div class="row">
+                <div class="large-7 columns large-offset-5">
+                	<p><span class="large">We&rsquo;ll get back to you shortly.</span><br>
+                    To speak to someone on our operations or customer service team please call us at 303-640-3160.</p>
+                    <form id="contact" class="custom contact">
+                        <label>Your Full Name</label>
+                        <input type="text" name="Name" id="Name" placeholder="required">
+                        <label>Email Address (we'll keep it private)</label>
+                        <input type="text" name="Email" id="Email" placeholder="required">
+                        <label>Phone Number</label>
+                        <input type="text" name="phone">
+                        <select id="customDropdown1">
+                       		<option>Choose a Topic (required)</option>
+                            <option>Technical Support</option>
+                            <option>Sales Inquirey</option>
+                            <option>Customer Service</option>
+                            <option>Other...</option>
+                        </select>
+                        <label>Message</label>
+                        <textarea cols="3" id="message" placeholder="requred"></textarea>
+                        <input type="hidden" name="recipient" value="SALES"/>
+                        <input type="hidden" name="recipient" value="TECH"/>
+                        <input type="hidden" name="recipient" value="OPS"/>
+                        <input type="hidden" name="subject" value="Operations Contact Request From Website"/>
+                        <button id="contactButton" class="button medium primary round right">Send Message</button>
+                    </form>
+                </div>
+            </div>
+          	<a class="close-reveal-modal">&#215;</a>
+        </div>
+        
+        <div id="demo-resident-buddy-Modal" class="reveal-modal xlarge">
+       		<h2>Set up a Resident Buddy Demo.</h2>
+			<div class="row">
+                <div class="large-6 columns">
+                	<p><span class="large">We&rsquo;ll get back to you shortly.</span><br>
+                    To speak to someone on our operations or customer service team please call us at 303-640-3160.</p>
+                    <form action="send.jsp" id="rb4-demo" class="sales">
+                  		<label>Your Full Name</label>
+                        <input type="text" name="name">
+                        <label>Email Address (we'll keep it private)</label>
+                        <input type="text" name="email">
+                        <label>Name of Community</label>
+                        <input type="text" name="Community">
+                        <label>State</label>
+                        <input type="text" name="state">
+                        <label><input type="checkbox" name="client"> I am a client.</label>
+                        <input type="hidden" name="recipient" value="DEMO"/>
+                        <input type="hidden" name="subject" value="Resident Buddy Demo Request from Website"/>
+                        <input type="hidden" name="successPage" value="index.htm"/>
+                        <button class="button medium primary round right">Send Message</button>
+                    </form>
+                </div>
+                <div class="large-6 columns">
+                  	<p><a href="https://vimeo.com/56786133" target="new" class="movie-link">Watch our short info movie</a></p>
+                	<img src="assets/images/res-bud-demmo-modal.png" style="position:relative; bottom:-30px; right:-45px; clear:both;">
+                </div>
+            </div>
+          	<a class="close-reveal-modal">&#215;</a>
+        </div>
+        
+        <div id="demo-insights-Modal" class="reveal-modal xlarge">
+       		<h2>Set up an Insights Demo.</h2>
+			<div class="row">
+                <div class="large-6 columns">
+                	<p><span class="large">We&rsquo;ll get back to you shortly.</span><br>
+                    To speak to someone on our operations or customer service team please call us at 303-640-3160.</p>
+                    <form action="send.jsp" id="gpm-demo" class="sales">
+                  		<label>Your Full Name</label>
+                        <input type="text" name="name">
+                        <label>Email Address (we'll keep it private)</label>
+                        <input type="text" name="email">
+                        <label>Name of Community</label>
+                        <input type="text" name="Community">
+                        <label>State</label>
+                        <input type="text" name="state">
+                        <label><input type="checkbox" name="client"> I am a client.</label>
+                        <input type="hidden" name="recipient" value="OPS"/>
+                        <input type="hidden" name="subject" value="Insights Demo Request from Website"/>
+                        <input type="hidden" name="successPage" value="index.htm"/>
+                        <button class="button medium primary round right">Send Message</button>
+                    </form>
+                </div>
+                <div class="large-6 columns">
+                	<img src="assets/images/meet-robin-thumb.png" class="left" style="margin-left: 14%; padding-right: 10px;">
+                	<p><a href="http://vimeo.com/60713430" target="new" class="movie-link">Watch our movie</a></p>
+                	<img src="assets/images/insights-demmo-modal.png" style="position:relative; bottom:-30px; right:-45px;">
+                </div>
+            </div>
+          	<a class="close-reveal-modal">&#215;</a>
+        </div>
+        
+        <div id="thank-you-Modal" class="reveal-modal xlarge">
+       		<h2>Thank you.</h2>
+			<div class="row">
+                <div class="large-12 columns">
+                	<p>Your email has been sent and we'll will be get back to you shortly.</p> 
+                </div>
+            </div>
+          	<a class="close-reveal-modal">&#215;</a>
+        </div>
+        
+        <div id="demo-thank-you-Modal" class="reveal-modal xlarge">
+       		<h2>Thank you for your interest!</h2>
+			<div class="row">
+                <div class="large-12 columns">
+                	<p>Your email has been sent and someone from our business development team will be get back to you shortly.</p> 
+                </div>
+            </div>
+          	<a class="close-reveal-modal">&#215;</a>
+        </div>
+        
+        
+    </div>
+	
+  <script>
+  document.write('<script src=' +
+  ('__proto__' in {} ? 'foundation-4.0.4/js/vendor/zepto' : 'foundation-4.0.4/js/vendor/jquery') +
+  '.js><\/script>')
+  </script>
+  
+  <script src="foundation-4.0.4/js/foundation.min.js"></script>
+  
+  <!--
+  
+  <script src="js/foundation/foundation.js"></script>
+  
+  <script src="js/foundation/foundation.alerts.js"></script>
+  
+  <script src="js/foundation/foundation.clearing.js"></script>
+  
+  <script src="js/foundation/foundation.cookie.js"></script>
+  
+  <script src="js/foundation/foundation.dropdown.js"></script>
+  
+  <script src="js/foundation/foundation.forms.js"></script>
+  
+  <script src="js/foundation/foundation.joyride.js"></script>
+  
+  <script src="js/foundation/foundation.magellan.js"></script>
+  
+  <script src="js/foundation/foundation.orbit.js"></script>
+  
+  <script src="js/foundation/foundation.placeholder.js"></script>
+  
+  <script src="js/foundation/foundation.reveal.js"></script>
+  
+  <script src="js/foundation/foundation.section.js"></script>
+  
+  <script src="js/foundation/foundation.tooltips.js"></script>
+  
+  <script src="js/foundation/foundation.topbar.js"></script>
+  
+  -->
+  
+  <script src="foundation-4.0.4/js/foundation/foundation.forms.js"></script>
+  
+<!--  <script>
+    $(document).foundation();
+  </script>-->
+  
+  <script>  
+	$(document).foundation('orbit', {animation_speed:180,timer_speed:7000});
+  </script>
+   <script>  
+	$(document).foundation('reveal');
+  </script>
+  <script>  
+	$(document).foundation('forms');
+  </script>
+  
+  
+  <script>
+	  if($(window).width() < 480){
+		 window.location = "http://rentbits.com/rb/s/find-rentals"
+	}
+  </script>
+  <script>
+  	var images = ['random-hero-1.jpg', 'random-hero-2.jpg', 'random-hero-3.jpg'];
+	$('<img src="assets/images/hero/' + images[Math.floor(Math.random() * images.length)] + '">').appendTo('.image');
+  </script>
+  
+ 
+</body>
+</html>
